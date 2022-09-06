@@ -3,7 +3,7 @@ A C# console application provided "as is" as an example of how to integrate with
 
 # Pre-Requisites
 - [Visual Studio Code](https://code.visualstudio.com/Download)
-- [.NET 5.0](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
+- [.NET 5.x SDK](https://dotnet.microsoft.com/en-us/download/dotnet/5.0) - whatever version suits your needs
 
 # Reference Material
 - [CSP OAuth Tokens](https://adminhttms.blob.core.windows.net/public/documents/CustomerServicePortal/HTC-TRD-CSP%20OAuth%20Tokens.pdf)
@@ -19,6 +19,7 @@ A C# console application provided "as is" as an example of how to integrate with
   - `_username`
   - `_password`
 - Note: CSP URLs and credentials are unique to each CSP instance - speak to your haulier/customer to obtain this information
+- Save `Program.cs` with "File > Save" or "Ctrl+S"
 
 # Run and Debug
 - To run the sample, execute `dotnet run` from the Terminal
